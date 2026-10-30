@@ -1,0 +1,17 @@
+Order Tracking
+Customers can view shipment updates in the Orders section of their account. A tracking link is shown after an order is dispatched. If tracking has not updated for 48 hours, contact support with the order reference. The assistant cannot access live order status.
+
+Returns and Refunds
+Unused items in their original packaging may be requested for return within 14 days of delivery. Some items may be excluded. To start a return, open Orders, choose the item, and select Return Request. After an approved return is received, a refund is usually processed to the original payment method within 5 to 7 business days. The assistant cannot approve a refund.
+
+Account Access
+If you cannot sign in, use the Forgot Password option on the sign-in page. Check your email for the password reset link. If the email does not arrive, check the spam folder and confirm that you entered the registered email address. Never share your password or one-time verification code.
+
+Billing and Payments
+Payment status is shown in the order details. If a payment appears to have been charged twice, do not submit repeated payments. Contact the billing support team with the transaction date and order reference. Do not share full card numbers or security codes.
+
+Technical Support
+If the website is not loading, refresh the page, check your internet connection, and try an updated browser. If the problem continues, clear the browser cache or try a private window. When contacting support, describe the error message and the steps that led to it. Do not share passwords or verification codes.
+
+Contact Support
+For an issue that is not covered by these FAQs, contact the support team through the Help section of the website. Include a brief description and relevant order reference, but do not send passwords, one-time codes, or full payment-card details.

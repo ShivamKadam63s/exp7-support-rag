@@ -1,0 +1,26 @@
+# Visits the Streamlit app every 6 hours so it does not hit the 12-hour sleep limit.
+# Setup: GitHub repo -> Settings -> Secrets and variables -> Actions -> Variables tab
+#        -> New repository variable:  APP_URL = https://your-app-name.streamlit.app
+name: Keep Streamlit app awake
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"      # at minute 0 of every 6th hour (UTC)
+  workflow_dispatch:           # lets you run it by hand from the Actions tab
+
+jobs:
+  visit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install Playwright and Chromium
+        run: |
+          pip install playwright
+          playwright install --with-deps chromium
+      - name: Visit the app
+        env:
+          APP_URL: ${{ vars.APP_URL }}
+        run: python scripts/wake_app.py

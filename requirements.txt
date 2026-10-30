@@ -1,0 +1,9 @@
+# Light dependencies only: Streamlit Community Cloud gives roughly 1 GB of memory,
+# so PyTorch / sentence-transformers / FAISS are NOT used in this version.
+streamlit          # the web interface
+openai             # client for the Groq (OpenAI-compatible) API
+python-dotenv      # reads a local .env file when running on your own computer
+langgraph          # the same workflow graph as Experiments 6 and 7
+langchain-core     # Document class used by the graph
+langchain-text-splitters   # splits the FAQ into chunks
+scikit-learn       # TF-IDF retrieval (replaces embeddings + FAISS)
